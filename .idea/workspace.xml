@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1129ed7-521f-4e41-bcd7-0eafb288e954" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyf-platform-config/lyf-platform-config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyf-platform-config/src/main/java/lyf/platform/config/controller/ConfigController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-base-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-base-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/.gitplaceholder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/resources/.gitplaceholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/lyf/framework/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/lyf/framework/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/lyf/framework/admin/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/lyf/framework/admin/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/RegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/RegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/RegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/RegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/controller/RegistryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/controller/RegistryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lyf-platform-config/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.RegistryApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="springcloudaliDemo" />
       <option name="VM_PARAMETERS" />
@@ -183,17 +183,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="lyf-platform-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lyf.platform.registry.RegistryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.RegistryApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.RegistryApplication" />
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
       </list>
     </recent_temporary>
@@ -209,7 +215,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578904074670</updated>
       <workItem from="1578904078414" duration="4407000" />
-      <workItem from="1578964545226" duration="9145000" />
+      <workItem from="1578964545226" duration="17557000" />
     </task>
     <servers />
   </component>

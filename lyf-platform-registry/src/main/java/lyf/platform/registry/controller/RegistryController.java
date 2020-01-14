@@ -1,5 +1,6 @@
 package lyf.platform.registry.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("registry")
 public class RegistryController {
 
+    @Value("${server.port}")
+    private String port;
+
     @GetMapping("/echo/{arg}")
     public String echo(@PathVariable String arg) {
-        return "hello Nacos Discovery" + arg;
+        return "hello Nacos Discovery" + arg + "; from port:" + port;
     }
 }
