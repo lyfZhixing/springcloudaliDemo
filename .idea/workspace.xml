@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1129ed7-521f-4e41-bcd7-0eafb288e954" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloudalicli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloudaliDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-base-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-base-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +43,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lyf-base-common/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-base-common\src\main\resources" />
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-framework-admin\src\main\resources" />
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-gateway\src\main\resources" />
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-registry\src\main\java" />
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-gateway\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578904074670</updated>
       <workItem from="1578904078414" duration="4407000" />
+      <workItem from="1578964545226" duration="795000" />
     </task>
     <servers />
   </component>
@@ -143,7 +154,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
