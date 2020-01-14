@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1129ed7-521f-4e41-bcd7-0eafb288e954" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyf-platform-config/lyf-platform-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyf-platform-config/src/main/java/lyf/platform/config/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-base-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-base-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-framework-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyf-platform-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/java/.gitplaceholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-framework-admin/src/main/resources/.gitplaceholder" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/RegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lyf-platform-registry/src/main/java/lyf/platform/registry/RegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyf-platform-registry/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response1.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -34,8 +44,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1WKhDYWZnD5ZzcXFYQc3tgxhPZe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -43,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lyf-base-common/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lyf-platform-config/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,12 +64,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-config\src\main\resources" />
       <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-base-common\src\main\resources" />
       <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-framework-admin\src\main\resources" />
       <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-gateway\src\main\resources" />
       <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-registry\src\main\java" />
-      <recent name="D:\CODE\LYF\springcloudaliDemo\lyf-platform-gateway\src\main\java" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="springcloudaliDemo" />
       <option name="VM_PARAMETERS" />
@@ -118,16 +157,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lyf-framework-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lyf.framework.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lyf.framework.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lyf-platform-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lyf.platform.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lyf.platform.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="lyf-platform-registry" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="RegistryApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lyf.platform.registry.RegistryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.RegistryApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578904074670</updated>
       <workItem from="1578904078414" duration="4407000" />
-      <workItem from="1578964545226" duration="795000" />
+      <workItem from="1578964545226" duration="9145000" />
     </task>
     <servers />
   </component>

@@ -28,6 +28,7 @@
         <module>lyf-platform-gateway</module>
         <module>lyf-framework-admin</module>
         <module>lyf-base-common</module>
+        <module>lyf-platform-config</module>
     </modules>
 
     <properties>

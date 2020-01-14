@@ -10,6 +10,7 @@
         <module name="lyf-platform-registry" />
         <module name="lyf-platform-gateway" />
         <module name="lyf-base-common" />
+        <module name="lyf-platform-config" />
       </profile>
     </annotationProcessing>
   </component>
